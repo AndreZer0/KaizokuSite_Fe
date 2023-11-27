@@ -1,0 +1,32 @@
+/** @format */
+
+.Nav {
+  background-color: black !important;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 1.3em;
+  margin: 10px;
+}
+.nav-links {
+  margin-right: 2em;
+  font-family: Helvetica, Arial, メイリオ, meiryo, ヒラギノ角ゴ pro w3,
+    hiragino kaku gothic pro, sans-serif;
+}
+
+.nav-links a:hover {
+  color: #ffff66;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  margin-left: 4em;
+}
+
+@media screen and (max-width: 1200px) {
+  .intro {
+    margin: 0;
+  }
+}

@@ -1,0 +1,21 @@
+/** @format */
+
+.text-center {
+  background-color: #000000;
+}
+
+.end {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+section a {
+  color: white;
+}
+
+section a:hover {
+  color: #ffff66;
+}
+
+h6 a:hover {
+  color: #ffff66;
+}

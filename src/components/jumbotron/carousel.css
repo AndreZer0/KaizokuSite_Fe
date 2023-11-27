@@ -1,0 +1,97 @@
+/** @format */
+
+.contenitore-carosello {
+  background-image: url('https://i.postimg.cc/B6g9cJy5/ezgif-com-video-to-gif-1.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+.carosello {
+  margin: auto;
+  padding: 2em;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  font-family: Journal Sans New Regular;
+}
+.card {
+  text-align: center;
+  margin-bottom: 60px;
+  width: 350px;
+  height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  color: white;
+  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+}
+.card img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  transition: opacity 0.2s ease-out;
+}
+.card h2 {
+  visibility: hidden;
+  margin-top: 10px;
+
+  transition: inset 0.3s 0.3s ease-out;
+  font-family: Journal Sans New Regular;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.card p {
+  visibility: hidden;
+  margin: auto;
+  opacity: 0;
+  max-width: 80%;
+  transition: opacity 0.3s ease-out;
+  inset: auto auto 20px 30px;
+  font-size: 24px;
+}
+
+.card:hover h2 {
+  visibility: visible;
+  inset: auto auto 220px 30px;
+  transition: inset 0.3s ease-out;
+}
+.card:hover p {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.5s 0.1s ease-in;
+}
+.card:hover img {
+  transition: opacity 0.3s ease-in;
+  opacity: 0.2;
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    height: 200px;
+    width: 160px;
+    margin: 5px;
+  }
+  .contenitore-carosello,
+  .carosello {
+    height: 300px;
+  }
+
+  .card h2 {
+    font-size: 8px;
+  }
+  .card p {
+    font-size: 9px;
+    margin-bottom: 0px;
+  }
+}

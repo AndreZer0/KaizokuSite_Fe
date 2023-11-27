@@ -1,0 +1,20 @@
+/** @format */
+
+.insta-feed {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+.elfsight-app-2e4233e6-0813-475e-a270-96ddf1372703 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.insta-photo {
+  width: 100%;
+}
