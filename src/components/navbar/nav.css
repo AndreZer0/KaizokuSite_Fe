@@ -11,8 +11,7 @@
 }
 .nav-links {
   margin-right: 2em;
-  font-family: Helvetica, Arial, メイリオ, meiryo, ヒラギノ角ゴ pro w3,
-    hiragino kaku gothic pro, sans-serif;
+  font-family: 'Journal Sans New W05 Inline';
 }
 
 .nav-links a:hover {
@@ -22,7 +21,7 @@
 .intro {
   display: flex;
   align-items: center;
-  margin-left: 4em;
+  padding-left: 1em;
 }
 
 @media screen and (max-width: 1200px) {
