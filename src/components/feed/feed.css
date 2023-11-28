@@ -12,9 +12,30 @@
 .elfsight-app-2e4233e6-0813-475e-a270-96ddf1372703 {
   width: 100%;
   margin: 0;
+
   padding: 0;
 }
 
 .insta-photo {
   width: 100%;
+}
+.descrizione-kai {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  font-family: 'Journal Sans New W05 Inline';
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 1em;
+}
+.eui-widget-title {
+  font-family: 'Lovelo', sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+  .descrizione-kai {
+    margin: 30px;
+    margin-top: 100px;
+    font-size: 18px;
+  }
 }

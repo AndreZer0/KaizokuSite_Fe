@@ -19,7 +19,7 @@ const MyNav = () => {
             <img
               height={90}
               width={240}
-              src='https://i.postimg.cc/CKsgQTb9/Kaizoku-white-oriz.webp'
+              src='https://i.postimg.cc/yYVYPzCT/Parrot-logo-oriz-bianco-trasp.png'
             />
           </div>
         </Navbar.Brand>
