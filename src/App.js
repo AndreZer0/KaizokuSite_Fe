@@ -1,19 +1,30 @@
 /** @format */
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import MyNav from './components/navbar/MyNav';
-import Carosello from './components/jumbotron/Carousel';
-import Feed from './components/feed/Feed';
-import Footer from './components/footer/Footer';
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  BrowserRouter,
+} from 'react-router-dom';
+import Home from '../src/components/pages/Home';
+import Fumetti from './components/pages/Fumetti';
 
 const App = () => {
   return (
-    <>
-      <MyNav />
-      <Carosello />
-      <Feed />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path='/'
+          element={<Home />}
+        />
+        <Route
+          path='/comics'
+          element={<Fumetti />}
+        />
+      </Routes>
+    </BrowserRouter>
   );
 };
 

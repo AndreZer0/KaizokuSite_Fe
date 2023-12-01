@@ -9,7 +9,7 @@ const Carosello = () => {
         data-bs-theme='dark'
         className='carosello d-block w-100'>
         <Carousel.Item className='first-item item'>
-          <div class='overlay'></div>
+          <div className='overlay'></div>
           <div className='contenitore primo'>
             <h2>Bertazzo - Biancotto - Audino </h2>
             <p>
@@ -20,7 +20,7 @@ const Carosello = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item className='second-item item'>
-          <div class='overlay'></div>
+          <div className='overlay'></div>
           <div className='contenitore secondo'>
             <h2>Bertazzo - Biancotto - Audino </h2>
             <p>
@@ -31,7 +31,7 @@ const Carosello = () => {
           </div>
         </Carousel.Item>
         <Carousel.Item className='third-item item'>
-          <div class='overlay'></div>
+          <div className='overlay'></div>
           <div className='contenitore terzo item'>
             <h2>Bertazzo - Biancotto - Audino </h2>
             <p>

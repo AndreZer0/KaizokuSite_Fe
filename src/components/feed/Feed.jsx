@@ -15,7 +15,7 @@ const Feed = () => {
       </p>
       <div className='insta-feed'>
         <div
-          class='elfsight-app-2e4233e6-0813-475e-a270-96ddf1372703 insta-photo'
+          className='elfsight-app-2e4233e6-0813-475e-a270-96ddf1372703 insta-photo'
           data-elfsight-app-lazy></div>
       </div>
     </>
