@@ -89,7 +89,10 @@
   left: 10%;
   width: 700px;
 }
-
+.ancore-carosello {
+  text-decoration: none;
+  color: white;
+}
 @media screen and (max-width: 1200px) {
   .contenitore-carosello,
   .carosello,
