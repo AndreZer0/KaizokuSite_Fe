@@ -10,6 +10,7 @@ import {
 } from 'react-router-dom';
 import Home from '../src/components/pages/Home';
 import Fumetti from './components/pages/Fumetti';
+import Studio from './components/pages/Studio';
 
 const App = () => {
   return (
@@ -22,6 +23,10 @@ const App = () => {
         <Route
           path='/comics'
           element={<Fumetti />}
+        />
+        <Route
+          path='/studio'
+          element={<Studio />}
         />
       </Routes>
     </BrowserRouter>

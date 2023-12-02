@@ -1,0 +1,41 @@
+/** @format */
+
+.bandiera {
+  width: 100vw;
+  height: 60vh;
+  background: url('https://i.postimg.cc/85ffZBTb/ezgif-com-video-to-gif-1.gif')
+    center/cover no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.bandiera::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+.testo {
+  text-align: center;
+  font-family: 'Lovelo', sans-serif;
+  margin-top: 30px;
+  opacity: 0;
+  transition: opacity 4s ease-in-out;
+}
+
+.testo.show-text {
+  opacity: 1;
+}
+
+.testo h1 {
+  color: white;
+  font-size: 80px;
+}
+
+.testo h3 {
+  color: #ffff66;
+}

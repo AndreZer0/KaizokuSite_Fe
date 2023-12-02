@@ -33,7 +33,11 @@ const MyNav = () => {
               to='/'>
               Home
             </Nav.Link>
-            <Nav.Link>Lo Studio</Nav.Link>
+            <Nav.Link
+              as={Link}
+              to='/studio'>
+              Lo Studio
+            </Nav.Link>
             <Nav.Link>La Ciurma</Nav.Link>
             <Nav.Link
               as={Link}
