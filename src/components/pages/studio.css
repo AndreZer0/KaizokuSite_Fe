@@ -39,3 +39,13 @@
 .testo h3 {
   color: #ffff66;
 }
+
+@media (max-width: 600px) {
+  .testo h1 {
+    font-size: 40px; /* Imposta la dimensione del font desiderata per dispositivi mobili */
+  }
+
+  .testo h3 {
+    font-size: 20px; /* Imposta la dimensione del font desiderata per dispositivi mobili */
+  }
+}
