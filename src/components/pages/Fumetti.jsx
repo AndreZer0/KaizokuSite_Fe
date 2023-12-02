@@ -48,17 +48,6 @@ const Fumetti = () => {
               alt='book'
               className='fumetto'
             />
-            <div className='card-description'>
-              <a
-                href='#four'
-                class='button type--A'>
-                <div class='button__line'></div>
-                <div class='button__line'></div>
-                <span class='button__text'>Vai alla scheda</span>
-                <div class='button__drow1'></div>
-                <div class='button__drow2'></div>
-              </a>
-            </div>
           </label>
 
           <label
@@ -71,17 +60,6 @@ const Fumetti = () => {
               alt='book'
               className='fumetto'
             />
-            <div className='card-description'>
-              <a
-                href='#knight'
-                class='button type--A'>
-                <div class='button__line'></div>
-                <div class='button__line'></div>
-                <span class='button__text'>Vai alla scheda</span>
-                <div class='button__drow1'></div>
-                <div class='button__drow2'></div>
-              </a>
-            </div>
           </label>
 
           <label
@@ -94,17 +72,6 @@ const Fumetti = () => {
               alt='book'
               className='fumetto'
             />
-            <div className='card-description'>
-              <a
-                href='#olandese'
-                class='button type--A'>
-                <div class='button__line'></div>
-                <div class='button__line'></div>
-                <span class='button__text'>Vai alla scheda</span>
-                <div class='button__drow1'></div>
-                <div class='button__drow2'></div>
-              </a>
-            </div>
           </label>
         </div>
 
@@ -116,25 +83,28 @@ const Fumetti = () => {
               <label
                 className='book-info'
                 id='book-info-1'>
-                <div className='title'>4</div>
-                <div className='sub-line'>
-                  <div className='subtitle'>Bertazzo - Biancotto - Audino</div>
+                <div className='title'>
+                  <a href='#four'>
+                    <h2 className='scheda'>Vai alla scheda!</h2>
+                  </a>
                 </div>
               </label>
               <label
                 className='book-info'
                 id='book-info-2'>
-                <div className='title'>4</div>
-                <div className='sub-line'>
-                  <div className='subtitle'>Bertazzo - Biancotto - Audino</div>
+                <div className='title'>
+                  <a href='#knight'>
+                    <h2 className='scheda'>Vai alla scheda!</h2>
+                  </a>
                 </div>
               </label>
               <label
                 className='book-info'
                 id='book-info-3'>
-                <div className='title'>4</div>
-                <div className='sub-line'>
-                  <div className='subtitle'>Bertazzo - Biancotto - Audino</div>
+                <div className='title'>
+                  <a href='#olandese'>
+                    <h2 className='scheda'>Vai alla scheda!</h2>
+                  </a>
                 </div>
               </label>
             </div>
