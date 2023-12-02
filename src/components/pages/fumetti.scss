@@ -8,43 +8,6 @@
   margin: auto;
   transition: transform 0.4s ease;
   cursor: pointer;
-
-  &:hover {
-    .overlay {
-      opacity: 1;
-    }
-
-    .card-description {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgb(132, 126, 126);
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.card-description {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 100% !important;
-  width: 100%;
-  padding: 20px;
-  overflow: hidden;
-  background: rgba(255, 255, 255, 0.733);
-  color: #fff;
-  opacity: 0;
-  transform: translateY(100%);
-  transition: opacity 0.3s, transform 0.3s;
 }
 
 .comics-container {
@@ -110,6 +73,9 @@ input {
   width: 320px;
   padding: 12px;
 }
+.player:hover {
+  background-color: #ffff66;
+}
 
 .upper-part {
   position: relative;
@@ -163,6 +129,9 @@ input {
     width: 300px;
     margin-left: 50px;
     margin-right: 50px;
+  }
+  .blog-card {
+    margin: 20px !important;
   }
 }
 
@@ -366,4 +335,79 @@ input {
 #olandese {
   background-image: url('https://i.postimg.cc/bYH4dfPp/ANTEPRIMA-LA-TRAGEDIA-DELL-OLANDESE-VOLANTE.jpg');
   background-position: -24px;
+}
+
+// Vars
+
+$alt-color: #ffffff;
+
+$fonts: 'Helvetica Neue', Helvetica, sans-serif;
+$font-color: rgb(0, 0, 0);
+
+@mixin hpd-basic {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.hpd {
+  margin: 0 auto 20px;
+}
+
+.hpd {
+  display: block;
+  padding: 14px;
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  font-family: $fonts;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.hpd img {
+  width: 50px;
+}
+.hpd .hpd-title {
+  margin: 0;
+  font-size: 28px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.hpd .hpd-desc {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.45;
+}
+
+.hpd-btn {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 2px;
+  background: $alt-color;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $font-color;
+
+  transition: background 0.5s ease;
+
+  .hpd:hover & {
+    background: #ffff66;
+  }
+}
+
+.hpd-basic {
+  @include hpd-basic;
+}
+
+@media (min-width: 600px) {
+  .hpd-basic hpd-btn {
+    background: transparent;
+  }
 }

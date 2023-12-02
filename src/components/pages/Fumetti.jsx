@@ -131,7 +131,7 @@ const Fumetti = () => {
           </ul>
         </div>
         <div className='description'>
-          <h1>Titolo: 4</h1>
+          <h1> 4</h1>
           <h2>Di cosa parla?</h2>
           <p>
             Anni di guerre sanguinose tra le potenze di Tallia hanno costretto
@@ -151,7 +151,7 @@ const Fumetti = () => {
             signorie di un incredibile mondo fanta-rinascimentale.
           </p>
           <p className='read-more'>
-            <a href='#'>Dove posso acquistarlo?</a>
+            <a href='#where-to-buy'>Dove posso acquistarlo?</a>
           </p>
         </div>
       </div>
@@ -168,7 +168,7 @@ const Fumetti = () => {
           </ul>
         </div>
         <div className='description'>
-          <h1>Titolo: IL CAVALIERE RIAVVOLTO</h1>
+          <h1>IL CAVALIERE RIAVVOLTO</h1>
           <h2>Di cosa parla?</h2>
           <p>
             La preservazione della vista è il comandamento più importante dei
@@ -187,7 +187,7 @@ const Fumetti = () => {
             cui scopriamo cosa abbia dovuto sacrificare per trovare la Verità.
           </p>
           <p className='read-more'>
-            <a href='#'>Dove posso acquistarlo?</a>
+            <a href='#where-to-buy'>Dove posso acquistarlo?</a>
           </p>
         </div>
       </div>
@@ -207,7 +207,7 @@ const Fumetti = () => {
           </ul>
         </div>
         <div className='description'>
-          <h1>Titolo: LA TRAGEDIA DELL’OLANDESE VOLANTE</h1>
+          <h1>LA TRAGEDIA DELL’OLANDESE VOLANTE</h1>
           <h2>Di cosa parla?</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -226,10 +226,27 @@ const Fumetti = () => {
             officia deserunt mollit anim id est laborum.
           </p>
           <p className='read-more'>
-            <a href='#'>Dove posso acquistarlo?</a>
+            <a href='#where-to-buy'>Dove posso acquistarlo?</a>
           </p>
         </div>
       </div>
+      <a
+        href='/'
+        class='hpd hpd-basic'
+        id='where-to-buy'>
+        <img src='https://i.postimg.cc/KY6LtMxg/Parrot-logo-solo-bianco-trasp.png' />
+        <h4 class='hpd-title'>
+          Tutti i nostri volumi sono acquistabili in fiera
+        </h4>
+
+        <p class='hpd-desc'>Venite a trovarci!</p>
+
+        <span
+          href='#'
+          class='hpd-btn'>
+          Scopri le fiere<span class='hpd-kickstarter'> in arrivo</span>
+        </span>
+      </a>
 
       <Footer />
     </>
