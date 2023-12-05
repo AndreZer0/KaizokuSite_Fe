@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import MyNav from '../navbar/MyNav';
 import Footer from '../footer/Footer';
 import './fumetti.scss';
@@ -112,7 +112,7 @@ const Fumetti = () => {
         </div>
       </div>
 
-      <div className='blog-card'>
+      <div className='blog-card uno'>
         <div className='meta'>
           <div
             className='photo'
@@ -160,7 +160,7 @@ const Fumetti = () => {
           </p>
         </div>
       </div>
-      <div className='blog-card alt'>
+      <div className='blog-card alt due'>
         <div className='meta'>
           <div
             className='photo'
@@ -196,7 +196,7 @@ const Fumetti = () => {
           </p>
         </div>
       </div>
-      <div className='blog-card'>
+      <div className='blog-card tre'>
         <div className='meta'>
           <div
             className='photo'
@@ -216,7 +216,7 @@ const Fumetti = () => {
           <h2>
             <ul>
               <li>Testi di Jacopo Pasqualini.</li>
-              <li>Disegni di Giada Belviso</li>
+              <li>Disegni di Giada Belviso.</li>
             </ul>
           </h2>
           <p>

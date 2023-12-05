@@ -11,11 +11,12 @@
 }
 .nav-links {
   margin-right: 2em;
-  font-family: 'Journal Sans New W05 Inline';
+  font-family: 'Lovelo', sans-serif;
 }
 
 .nav-links a:hover {
   color: #ffff66;
+  text-shadow: 2px 2px 5px red;
 }
 
 .intro {

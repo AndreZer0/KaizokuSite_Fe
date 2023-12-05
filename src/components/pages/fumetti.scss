@@ -68,13 +68,10 @@ input {
 }
 
 .player {
-  background-color: #fff;
+  background-color: #93040400;
+
   border-radius: 8px;
   width: 320px;
-  padding: 12px;
-}
-.player:hover {
-  background-color: #ffff66;
 }
 
 .upper-part {
@@ -87,7 +84,6 @@ input {
 }
 
 .book-info {
-  width: calc(100% - 32px);
   display: block;
 }
 
@@ -100,12 +96,20 @@ input {
 .scheda {
   font-size: 28px;
 }
+.player h2 {
+  color: rgb(255, 255, 255);
+  font-family: 'Lovelo', sans-serif;
+}
+.player h2:hover {
+  color: #ffff66;
+  text-shadow: 2px 2px 5px red;
+}
 .info-area {
   width: 100%;
   position: absolute;
-
+  text-align: center;
   top: 0;
-  left: 45px;
+
   transition: transform 0.4s ease-in;
 }
 
@@ -126,15 +130,40 @@ input {
     height: 400px;
   }
   .player {
-    width: 300px;
+    height: 50px;
+    width: 200px;
     margin-left: 50px;
     margin-right: 50px;
+  }
+  .player h2 {
+    font-size: 24px;
+    padding-top: 5px;
   }
   .blog-card {
     margin: 20px !important;
   }
 }
 
+.uno {
+  animation: fadeIn 2s ease-in-out 0.7s forwards;
+}
+
+.due {
+  animation: fadeIn 2s ease-in-out 1.2s forwards;
+}
+
+.tre {
+  animation: fadeIn 2s ease-in-out 1.7s forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .blog-card {
   display: flex;
   flex-direction: column;
@@ -147,6 +176,8 @@ input {
   border-radius: 5px;
   overflow: hidden;
   z-index: 0;
+  opacity: 0;
+
   a {
     color: inherit;
     &:hover {
@@ -231,11 +262,12 @@ input {
     background-color: white;
     position: relative;
     z-index: 1;
-    h1,
+
     h2 {
       font-family: Poppins, sans-serif;
     }
     h1 {
+      font-family: 'Lovelo', sans-serif;
       line-height: 1;
       margin: 0;
       font-size: 1.7rem;

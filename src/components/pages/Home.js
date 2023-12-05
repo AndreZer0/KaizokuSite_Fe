@@ -6,7 +6,7 @@ import Carosello from '../jumbotron/Carousel';
 import Feed from '../feed/Feed';
 import Footer from '../footer/Footer';
 
-const App = () => {
+const Home = () => {
   return (
     <>
       <MyNav />
@@ -17,4 +17,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Home;

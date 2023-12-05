@@ -10,12 +10,15 @@
 
 section a {
   color: white;
+  text-decoration: none;
 }
 
 section a:hover {
   color: #ffff66;
+  text-shadow: 2px 2px 5px red;
 }
 
 h6 a:hover {
   color: #ffff66;
+  text-shadow: 2px 2px 5px red;
 }
