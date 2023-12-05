@@ -6,7 +6,8 @@ const Feed = () => {
   return (
     <>
       <p className='descrizione-kai'>
-        Kaizoku è una realtà editoriale indipendente con sede a Torino, Italia.
+        Kaizoku è una realtà editoriale indipendente, nata nel 2022, con sede a
+        Torino, Italia.
         <br></br>
         <br></br>
         Nasce come collettivo di autoproduzione fumettistica per dare libero

@@ -132,7 +132,12 @@ const Fumetti = () => {
         </div>
         <div className='description'>
           <h1> 4</h1>
-          <h2>Di cosa parla?</h2>
+          <h2>
+            <ul>
+              <li> Testi di Paolo Bertazzo e Gregorio Biancotto.</li>
+              <li> Disegni di Edoardo Audino.</li>
+            </ul>
+          </h2>
           <p>
             Anni di guerre sanguinose tra le potenze di Tallia hanno costretto
             Dio a intervenire, spezzando le corone dei quattro sovrani e
@@ -169,7 +174,7 @@ const Fumetti = () => {
         </div>
         <div className='description'>
           <h1>IL CAVALIERE RIAVVOLTO</h1>
-          <h2>Di cosa parla?</h2>
+          <h2>Testi e disegni di Edoardo Follegatti.</h2>
           <p>
             La preservazione della vista è il comandamento più importante dei
             Cavalieri dell’Inerzia, gli zeloti inviati a recuperare la Verità,
@@ -208,7 +213,12 @@ const Fumetti = () => {
         </div>
         <div className='description'>
           <h1>LA TRAGEDIA DELL’OLANDESE VOLANTE</h1>
-          <h2>Di cosa parla?</h2>
+          <h2>
+            <ul>
+              <li>Testi di Jacopo Pasqualini.</li>
+              <li>Disegni di Giada Belviso</li>
+            </ul>
+          </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -232,19 +242,19 @@ const Fumetti = () => {
       </div>
       <a
         href='/'
-        class='hpd hpd-basic'
+        className='hpd hpd-basic'
         id='where-to-buy'>
         <img src='https://i.postimg.cc/KY6LtMxg/Parrot-logo-solo-bianco-trasp.png' />
-        <h4 class='hpd-title'>
+        <h4 className='hpd-title'>
           Tutti i nostri volumi sono acquistabili in fiera
         </h4>
 
-        <p class='hpd-desc'>Venite a trovarci!</p>
+        <p className='hpd-desc'>Venite a trovarci!</p>
 
         <span
           href='#'
-          class='hpd-btn'>
-          Scopri le fiere<span class='hpd-kickstarter'> in arrivo</span>
+          className='hpd-btn'>
+          Scopri le fiere<span className='hpd-kickstarter'> in arrivo</span>
         </span>
       </a>
 

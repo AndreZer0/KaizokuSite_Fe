@@ -9,7 +9,7 @@ const Studio = () => {
   const [showText, setShowText] = useState(false);
 
   useEffect(() => {
-    // Aggiungi un ritardo per far sì che l'animazione sia visibile al caricamento della pagina
+    // Aggiungo un ritardo per far sì che l'animazione sia visibile al caricamento della pagina
     const timeoutId = setTimeout(() => {
       setShowText(true);
     }, 500);
@@ -22,11 +22,14 @@ const Studio = () => {
       <MyNav />
       <div
         className='bandiera'
-        id='bandiera'></div>
-      <div className={`testo ${showText ? 'show-text' : ''}`}>
-        <h1>MANIFESTO</h1>
-        <h3>Oltre ogni limite.</h3>
+        id='bandiera'>
+        <div className='sfondo'></div>
+        <div className={`testo ${showText ? 'show-text' : ''}`}>
+          <h1>LO STUDIO</h1>
+          <h3>Chi siamo?</h3>
+        </div>
       </div>
+
       <Footer />
     </>
   );

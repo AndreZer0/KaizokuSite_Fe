@@ -3,13 +3,22 @@
 .bandiera {
   width: 100vw;
   height: 60vh;
-  background: url('https://i.postimg.cc/85ffZBTb/ezgif-com-video-to-gif-1.gif')
-    center/cover no-repeat;
   position: relative;
   overflow: hidden;
 }
 
-.bandiera::before {
+.sfondo {
+  width: 100%;
+  height: 100%;
+  background: url('https://i.postimg.cc/85ffZBTb/ezgif-com-video-to-gif-1.gif')
+    center/cover no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.sfondo::before {
   content: '';
   position: absolute;
   top: 0;
@@ -18,13 +27,17 @@
   left: 0;
   backdrop-filter: blur(4px);
   background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
 }
+
 .testo {
   text-align: center;
   font-family: 'Lovelo', sans-serif;
-  margin-top: 30px;
+  margin-top: 350px;
   opacity: 0;
   transition: opacity 4s ease-in-out;
+  position: relative;
+  z-index: 3;
 }
 
 .testo.show-text {
@@ -42,10 +55,10 @@
 
 @media (max-width: 600px) {
   .testo h1 {
-    font-size: 40px; /* Imposta la dimensione del font desiderata per dispositivi mobili */
+    font-size: 40px;
   }
 
   .testo h3 {
-    font-size: 20px; /* Imposta la dimensione del font desiderata per dispositivi mobili */
+    font-size: 20px;
   }
 }
