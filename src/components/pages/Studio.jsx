@@ -30,7 +30,7 @@ const Studio = () => {
         </div>
       </div>
       <div className='article-container'>
-        <p className='intro'>
+        <p className='intro-studio'>
           Sono tempi di bonaccia. La barca editoriale italiana galleggia
           placidamente in acque sicure. Tutte le vele sono ammainate. Ma non è
           certo per stare fermi a pescare che la nostra generazione ha scelto di
