@@ -16,9 +16,9 @@
   height: 600px;
 }
 .second-item {
-  background-image: url('https://i.postimg.cc/vBtGH353/ANTEPRIMA-IL-CAVALIERE-RIAVVOLTO.jpg');
+  background-image: url('https://i.postimg.cc/sDPNPC7j/IL-CAVALIERE-RIAVVOLTO.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 20%;
   background-size: cover;
   height: 600px;
 }

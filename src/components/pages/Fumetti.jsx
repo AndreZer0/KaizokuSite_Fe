@@ -56,7 +56,7 @@ const Fumetti = () => {
             id='book-2'
             type='button'>
             <img
-              src='https://i.postimg.cc/vBtGH353/ANTEPRIMA-IL-CAVALIERE-RIAVVOLTO.jpg'
+              src='https://i.postimg.cc/sDPNPC7j/IL-CAVALIERE-RIAVVOLTO.jpg'
               alt='book'
               className='fumetto'
             />
@@ -220,20 +220,18 @@ const Fumetti = () => {
             </ul>
           </h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum.
+            Van Der Decken, capitano dell’Olandese Volante, si è ormai ritirato
+            dalla sua vita da pirata e ha deciso di sistemarsi sulla terra ferma
+            con moglie e figlia. O meglio, questo è ciò che pensava, prima che
+            arrivasse una particolare richiesta dal suo governo: far sì che una
+            misteriosa figura torni dalle Indie Orientali, poiché potrebbe
+            danneggiare il governo stesso. Van Der Decken è contrario a questa
+            missione, ma moglie e figlia prese in ostaggio lo costringono ad
+            agire. Il capitano dell'Olandese dovrà prendere decisioni difficili
+            per raggiungere il suo obiettivo, mettendo in discussione il
+            concetto stesso di bene e male. Il suo viaggio quindi non sarà solo
+            per mare, ma anche insito nell'oscurità della mente umana, fra le
+            sue virtù e le sue debolezze.
           </p>
           <p className='read-more'>
             <a href='#where-to-buy'>Dove posso acquistarlo?</a>

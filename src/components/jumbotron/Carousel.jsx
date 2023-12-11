@@ -48,7 +48,12 @@ const Carosello = () => {
             className='ancore-carosello'>
             <div className='contenitore terzo item'>
               <h2>Jacopo Pasqualini, Giada Belviso</h2>
-              <p>In attesa di longline</p>
+              <p>
+                Van Der Decken è il capitano del mitico Olandese Volante. Tutti
+                i marinai e i pirati conoscono il nome di questa nave, ma pochi
+                sanno quanto sia davvero tragico il destino che ha dovuto subire
+                e le terribili scelte che ha dovuto fare il suo capitano…
+              </p>
             </div>
           </Link>
         </Carousel.Item>

@@ -13,6 +13,15 @@ const Feed = () => {
         Nasce come collettivo di autoproduzione fumettistica per dare libero
         sfogo alla passione dei suoi fondatori, ma si propone fin da subito come
         creator-owned company.
+        <br></br>
+        <br></br>I membri fondatori di Kaizoku sono Edoardo Audino, Paolo
+        Bertazzo, Giada Belviso, Gregorio Biancotto, Edoardo Follegatti, Fabio
+        Maiolo e Jacopo Pasqualini. Essi si sono conosciuti grazie ai rispettivi
+        percorsi di studio presso la Scuola Internazionale di Comics, a Torino e
+        a Genova. Terminati gli studi, hanno tutti cominciato a lavorare in vari
+        ambiti del mondo del fumetto e dell’intrattenimento e, avendo bisogno di
+        un luogo in cui esprimere al meglio la propria creatività, hanno trovato
+        la propria rotta tutti insieme, come una ciurma di pirati…
       </p>
       <div className='insta-feed'>
         <div
