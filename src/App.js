@@ -12,6 +12,7 @@ import Home from '../src/components/pages/Home';
 import Fumetti from './components/pages/Fumetti';
 import Studio from './components/pages/Studio';
 import { useEffect } from 'react';
+import Ciurma from './components/pages/Ciurma';
 
 const App = () => {
   useEffect(() => {
@@ -34,6 +35,10 @@ const App = () => {
         <Route
           path='/studio'
           element={<Studio />}
+        />
+        <Route
+          path='/ciurma'
+          element={<Ciurma />}
         />
       </Routes>
     </BrowserRouter>

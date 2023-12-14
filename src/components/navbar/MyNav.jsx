@@ -15,7 +15,9 @@ const MyNav = () => {
       data-bs-theme='dark'
       className='Nav'>
       <Container fluid>
-        <Navbar.Brand href='/'>
+        <Navbar.Brand
+          className='navbar-brand'
+          href='/'>
           <div className='intro'>
             <img
               height={90}
@@ -38,7 +40,11 @@ const MyNav = () => {
               to='/studio'>
               Lo Studio
             </Nav.Link>
-            <Nav.Link>La Ciurma</Nav.Link>
+            <Nav.Link
+              as={Link}
+              to='/ciurma'>
+              La Ciurma
+            </Nav.Link>
             <Nav.Link
               as={Link}
               to='/comics'>
