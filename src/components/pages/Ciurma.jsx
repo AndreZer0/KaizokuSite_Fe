@@ -153,7 +153,7 @@ const Ciurma = () => {
         <div className='avatar'>
           <img
             className='avatar-img'
-            src='/images/KZK-FEB.png'
+            src='https://i.postimg.cc/qvsLPD3v/KZK-FEB.png'
           />
         </div>
         <div className='scontent'>
@@ -209,7 +209,7 @@ const Ciurma = () => {
         <div className='avatar'>
           <img
             className='avatar-img'
-            src='/images/KZK-GRE.png'
+            src='https://i.postimg.cc/Yqhhh4JL/KZK-GRE.png'
           />
         </div>
         <div className='scontent'>
@@ -258,7 +258,7 @@ const Ciurma = () => {
         <div className='avatar'>
           <img
             className='avatar-img'
-            src='/images/KZK-JAC.png'
+            src='https://i.postimg.cc/FFgmWNPf/KZK-JAC.png'
           />
         </div>
       </div>
@@ -266,7 +266,7 @@ const Ciurma = () => {
         <div className='avatar'>
           <img
             className='avatar-img'
-            src='/images/KZK-PAO.png'
+            src='https://i.postimg.cc/brHtrWH6/KZK-PAO.png'
           />
         </div>
         <div id='bertazzo'></div>
