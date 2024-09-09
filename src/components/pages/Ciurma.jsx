@@ -97,7 +97,7 @@ const Ciurma = () => {
         <div className='avatar'>
           <img
             className='avatar-img'
-            src='/images/KZK-EDI.png'
+            src='https://i.postimg.cc/VNFbsj71/KZK-EDI.png'
           />
         </div>
         <div className='scontent'>
@@ -144,7 +144,7 @@ const Ciurma = () => {
         <div className='avatar'>
           <img
             className='avatar-img'
-            src='/images/KZK-EDO.png'
+            src='https://i.postimg.cc/k4ncWFmy/KZK-EDO.png'
           />
         </div>
       </div>
