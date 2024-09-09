@@ -44,7 +44,7 @@ const Fumetti = () => {
             id='book-1'
             type='button'>
             <img
-              src='https://i.postimg.cc/hvMbH0RM/ANTEPRIMA-4.jpg'
+              src='/images/ANTEPRIMA-4.jpg'
               alt='book'
               className='fumetto'
             />
@@ -56,7 +56,7 @@ const Fumetti = () => {
             id='book-2'
             type='button'>
             <img
-              src='https://i.postimg.cc/sDPNPC7j/IL-CAVALIERE-RIAVVOLTO.jpg'
+              src='/images/IL-CAVALIERE-RIAVVOLTO.jpg'
               alt='book'
               className='fumetto'
             />
@@ -68,7 +68,7 @@ const Fumetti = () => {
             id='book-3'
             type='button'>
             <img
-              src='https://i.postimg.cc/bYH4dfPp/ANTEPRIMA-LA-TRAGEDIA-DELL-OLANDESE-VOLANTE.jpg'
+              src='/images/ANTEPRIMA-LA-TRAGEDIA-DELL-OLANDESE-VOLANTE.jpg'
               alt='book'
               className='fumetto'
             />
@@ -242,7 +242,7 @@ const Fumetti = () => {
         href='/'
         className='hpd hpd-basic'
         id='where-to-buy'>
-        <img src='https://i.postimg.cc/KY6LtMxg/Parrot-logo-solo-bianco-trasp.png' />
+        <img src='/images/Parrot-logo-solo-bianco-trasp.png' />
         <h4 className='hpd-title'>
           Tutti i nostri volumi sono acquistabili in fiera
         </h4>
