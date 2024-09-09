@@ -22,7 +22,7 @@ const MyNav = () => {
             <img
               height={90}
               width={240}
-              src='/images/Parrot-logo-oriz-bianco-trasp.png'
+              src='https://i.postimg.cc/yYVYPzCT/Parrot-logo-oriz-bianco-trasp.png'
             />
           </div>
         </Navbar.Brand>

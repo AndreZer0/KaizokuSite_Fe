@@ -97,7 +97,7 @@ const Ciurma = () => {
         <div className='avatar'>
           <img
             className='avatar-img'
-            src='/images/KZK-EDI.png'
+            src='https://i.postimg.cc/VNFbsj71/KZK-EDI.png'
           />
         </div>
         <div className='scontent'>
@@ -144,7 +144,7 @@ const Ciurma = () => {
         <div className='avatar'>
           <img
             className='avatar-img'
-            src='/images/KZK-EDO.png'
+            src='https://i.postimg.cc/k4ncWFmy/KZK-EDO.png'
           />
         </div>
       </div>
@@ -153,7 +153,7 @@ const Ciurma = () => {
         <div className='avatar'>
           <img
             className='avatar-img'
-            src='/images/KZK-FEB.png'
+            src='https://i.postimg.cc/qvsLPD3v/KZK-FEB.png'
           />
         </div>
         <div className='scontent'>
@@ -201,7 +201,7 @@ const Ciurma = () => {
         <div className='avatar'>
           <img
             className='avatar-img'
-            src='/images/KZK_GIA.png'
+            src='https://i.postimg.cc/qMV0QgXH/KZK-GIA.png'
           />
         </div>
       </div>
@@ -209,7 +209,7 @@ const Ciurma = () => {
         <div className='avatar'>
           <img
             className='avatar-img'
-            src='/images//KZK-GRE.png'
+            src='https://i.postimg.cc/Yqhhh4JL/KZK-GRE.png'
           />
         </div>
         <div className='scontent'>
@@ -258,7 +258,7 @@ const Ciurma = () => {
         <div className='avatar'>
           <img
             className='avatar-img'
-            src='/images/KZK-JAC.png'
+            src='https://i.postimg.cc/FFgmWNPf/KZK-JAC.png'
           />
         </div>
       </div>
