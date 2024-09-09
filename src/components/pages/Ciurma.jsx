@@ -266,7 +266,7 @@ const Ciurma = () => {
         <div className='avatar'>
           <img
             className='avatar-img'
-            src='/images/KZK-PAO.png'
+            src='https://i.postimg.cc/brHtrWH6/KZK-PAO.png'
           />
         </div>
         <div id='bertazzo'></div>
